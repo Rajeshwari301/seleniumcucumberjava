@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Orange HRMS login steps",
+        "description": "",
+        "id": "login-feature;orange-hrms-login-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4394958969,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "logintest.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1012930823,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is OrangeHRM",
+            "match": {
+              "location": "logintest.title_of_login_page_is_OrangeHRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436132095,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "logintest.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/rajeshwarimahadevan/eclipse-workspace/SeleniumUIJava/src/main/java/com/qa/features/login.feature"
+  }
+]
