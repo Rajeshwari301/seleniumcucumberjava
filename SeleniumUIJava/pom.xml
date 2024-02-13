@@ -75,13 +75,6 @@
 
 
 		<dependency>
-			<groupId>seleniumprac</groupId>
-			<artifactId>
-				seleniumprac</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
 			<groupId>
 				io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
